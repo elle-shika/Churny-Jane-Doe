@@ -1,6 +1,6 @@
 # Ignore .env file
 .env
 
-# Ignore virtual environment directory (change 'venv' to your virtual env directory name)
+# Ignore virtual environment directory
 venv/ 
 
