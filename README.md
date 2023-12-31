@@ -19,11 +19,14 @@ strategies that can be implemented to avert this problem.
 
 > Churn Jane Doe is an anonymous identity for any of Telco's customers likely to churn
 
-## What exactly was I doing?
+## What exactly am I doing?
 This project is a predictive machine learning problem which leverages on classification algorithm(s) to achieve the business objective at hand.
 
-## Where were the clues?
-The data for this project is in a csv format from three different sources (Microsoft SQL server, GitHub, and OneDrive) The following describes
+## What tools do I need?
+This is a python project and the various **relevant libraries and modules** needed for this project can be found list in the requirements.txt file within this repository.
+
+## Where are the clues?
+The data for this project were derived from three different sources (Microsoft SQL server, GitHub, and OneDrive)  in csv format and are located in *dataset* within this repository. The following describes
 the columns present in the data.
 
 **Gender** -- Whether the customer is a male or a female
@@ -77,7 +80,7 @@ mailed check, Bank transfer(automatic), Credit card(automatic))
 
 **Churn** -- Whether the customer churned or not (Yes or No)
 
-## How did I get Churny Jane?
+## How do I get Churny Jane?
 Tasks to achieve this project involved:
 
 1.  Hypothesis formation and Data Processing - Importing the relevant libraries and modules,
@@ -95,7 +98,7 @@ Tasks to achieve this project involved:
 6.  Future Predictions - Test model on fresh data
 
 
-## What Happens to Jane now?
+## What Happens to Jane afterwards?
 Final phase of the project involves:
 1. Saving the model
 2. Assessing model's impact on the business
