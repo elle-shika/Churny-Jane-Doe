@@ -3,7 +3,7 @@ A classification machine learning project to predict the likelihood of a custome
 
 ## Introduction
 
-Customer attrition is one of the biggest expenditures of any
+Customer churn is one of the biggest expenditures of any
 organization. Customer churn otherwise known as customer attrition or
 customer turnover is the percentage of customers that stopped using your
 company\'s product or service within a specified timeframe.\
@@ -13,13 +13,17 @@ If we could figure out why a customer leaves and when they leave with
 reasonable accuracy, it would immensely help the organization to
 strategize their retention initiatives manifold.
 
-In this project, we aim to find the likelihood of a customer leaving the
+In this project, I aim to find the likelihood of a customer leaving the
 organization, the key indicators of churn as well as the retention
 strategies that can be implemented to avert this problem.
 
-## Data Understanding
+> Churn Jane Doe is an anonymous identity for any of Telco's customers likely to churn
 
-The data for this project is in a csv format. The following describes
+## What exactly was I doing?
+This project is a predictive machine learning problem which leverages on classification algorithm(s) to achieve the business objective at hand.
+
+## Where were the clues?
+The data for this project is in a csv format from three different sources (Microsoft SQL server, GitHub, and OneDrive) The following describes
 the columns present in the data.
 
 **Gender** -- Whether the customer is a male or a female
@@ -73,120 +77,29 @@ mailed check, Bank transfer(automatic), Credit card(automatic))
 
 **Churn** -- Whether the customer churned or not (Yes or No)
 
-## Instructions
-
-Your task is to understand the data and prepare it for model building.
-Your analysis or methods should incorporate the following steps.
+## How did I get Churny Jane?
+Tasks to achieve this project involved:
 
 1.  Hypothesis formation and Data Processing - Importing the relevant libraries and modules,
     Cleaning of Data, Check data types, Encoding Data labels etc.
 
-2.  Data Evaluation -- Perform bivariate and multivariate analysis, EDA
+2.  Data Evaluation -- Perform bivariate and multivariate analysis, Explotory Data Analysis
 
-See attached some useful resources \[ [Exploratory Data Analysis:
-Univariate, Bivariate, and Multivariate
-Analysis](https://www.enjoyalgorithms.com/blog/univariate-bivariate-multivariate-analysis)
-, [Univariate, Bivariate and Multivariate
-Analysis](https://youtu.be/w_Tm-H-emRo) , [Exploratory Data Analysis
-(EDA) Using Python](https://youtu.be/-o3AxdVcUtQ)\]
-
-3.  Build & Select Model -- Train Model on dataset and select the best
+3.  Build & Select Model -- Train Models on dataset and select the best
     performing model.
 
 4.  Evaluate your chosen Model.
 
-5.  Model Improvement.
+5.  Model Improvement -- Hyperparameter tuning and evaluate improvement
 
-6.  Future Predictions.
 
-7.  Key Insights and Conclusion.
+6.  Future Predictions - Test model on fresh data
 
-Upon completion of your project, you are required to write a blog post
-on your thought process on medium, LinkedIn, personal blog, or any other
-suitable blogging site.
 
-## Rubrics
-
-Hypothesis & Data Processing:
-
--   **Excellent:** Stated hypothesis and asked relevant questions.
-    Import all relevant libraries and conduct all checks
-    to make the data ready for future Analysis.
-
--   **Good:** Stated hypothesis and implemented few steps to check
-    the quality of data.
-
--   **Fair:** Didn't perform adequate steps in preprocessing the data and also ignored hypothesis.
-
-**NB:** Quality checks should involve checking data types,
-missing values, and dealing with class imbalance.
-
-Data Evaluation:
-
--   **Excellent:** Performed more than 5 bivariate and multivariate
-    analysis coupled with graphs to answer questions and hypothesis formed.
-
--   **Good:** Performed few bivariate and multivariate analysis coupled
-    with graphs to answer some questions and hypothesis.
-
--   **Fair:** Performed only 1 or 2 bivariate & multivariate analysis
-    but omitted key visuals like the correlation matrix.
-
-**[NB:]{.ul}** Visuals should check collinearity, churn rate,
-distributions etc.
-
-Build and Select Model:
-
--   **Excellent:** Train 4 or more models and compare their combination
-    of accuracy, precision, recall and F1 & F2 scores.
-
--   **Good:** Train less than 4 models and compare their accuracy,
-    precision, recall and F1 & F2 scores.
-
--   **Fair:** Train only 1 model and didn't compare any accuracy,
-    precision, recall and F1 & F2 scores.
-
-Evaluate Chosen model
-
--   **Excellent:** Learner evaluates his/her model through k-Fold cross
-    validation and explains the rationale for doing so. The results are
-    further visualized on a graph.
-
--   **Good:** Learner only performed cross-validation with little
-    explanation.
-
--   **Fair:** Performed only cross validation on the model without
-    explaining the rationale behind.
-
-Model Improvement
-
--   **Excellent:** Learner performed Hyperparameter tuning and explained
-    the concept into details.
-
--   **Good:** Learner performed Hyperparameter tuning with little
-    explanation on the concept.
-
--   **Fair:** Learner only performed Hyperparameter tuning.
-
-Future Predictions
-
--   **Excellent:** Predicted on test sets and visualized the results via
-    Confusion Matrix with detailed explanation of Confusion Matrix
-    visual.
-
--   **Good:** Predicted on test data and only visualized on Confusion
-    Matrix without any explanation of the graph.
-
--   **Fair:** Only predicted on test data.
-
-Key Insights and Conclusion
-
--   **Excellent:** Provide a vivid conclusion on the process by
-    providing 5 or more key insights from the analysis, challenges, and
-    the way forward.
-
--   **Good:** Gave a conclusion by providing two of either key insights,
-    challenges, and way forward.
-
--   **Fair:** Provided only key insights as conclusion.
-
+## What Happens to Jane now?
+Final phase of the project involves:
+1. Saving the model
+2. Assessing model's impact on the business
+- Key Insights and Conclusion. - Summarize key discoveries and provide recommendations for future enhancement.
+3. Deployment.
+- check my blog on Medium for more details into my thought process during my search [mission] (https://medium.com/@pamelakushika/whos-leaving-next-097b2c5b3da1) for Churn Jane Doe within Telco.
