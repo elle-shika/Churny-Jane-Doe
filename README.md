@@ -92,7 +92,6 @@ Tasks to achieve this project involved:
 
 5.  Model Improvement -- Hyperparameter tuning and evaluate improvement
 
-
 6.  Future Predictions - Test model on fresh data
 
 
@@ -102,4 +101,4 @@ Final phase of the project involves:
 2. Assessing model's impact on the business
 - Key Insights and Conclusion. - Summarize key discoveries and provide recommendations for future enhancement.
 3. Deployment.
-- check my blog on Medium for more details into my thought process during my search [mission] (https://medium.com/@pamelakushika/whos-leaving-next-097b2c5b3da1) for Churn Jane Doe within Telco.
+- check my blog on Medium for more details into my thought process during my search [mission](https://medium.com/@pamelakushika/whos-leaving-next-097b2c5b3da1) for Churn Jane Doe within Telco.
