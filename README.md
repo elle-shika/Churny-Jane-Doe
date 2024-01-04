@@ -2,7 +2,6 @@
 A classification machine learning project to predict the likelihood of a customer leaving the organization.
 
 ## Introduction
-
 Customer churn is one of the biggest expenditures of any
 organization. Customer churn otherwise known as customer attrition or
 customer turnover is the percentage of customers that stopped using your
@@ -13,6 +12,7 @@ If we could figure out why a customer leaves and when they leave with
 reasonable accuracy, it would immensely help the organization to
 strategize their retention initiatives manifold.
 
+## The Mission
 In this project, I aim to find the likelihood of a customer leaving the
 organization, the key indicators of churn as well as the retention
 strategies that can be implemented to avert this problem.
@@ -20,10 +20,10 @@ strategies that can be implemented to avert this problem.
 > Churn Jane Doe is an anonymous identity for any of Telco's customers likely to churn
 
 ## What exactly am I doing?
-This project is a predictive machine learning problem which leverages on classification algorithm(s) to achieve the business objective at hand.
+This project is a predictive machine learning problem which leverages on classification algorithm(s) to achieve the project objective at hand.
 
 ## What tools do I need?
-This is a python project and the various **relevant libraries and modules** needed for this project can be found list in the requirements.txt file within this repository.
+This is a python project and the various **relevant libraries and modules** needed for this project can be found list in the *requirements.txt file in set- up* within this repository.
 
 ## Where are the clues?
 The data for this project were derived from three different sources (Microsoft SQL server, GitHub, and OneDrive)  in csv format and are located in *dataset* within this repository. The following describes
@@ -81,7 +81,7 @@ mailed check, Bank transfer(automatic), Credit card(automatic))
 **Churn** -- Whether the customer churned or not (Yes or No)
 
 ## How do I get Churny Jane?
-Tasks to achieve this project involved:
+In order to achieve the project goal, this is the order of tasks to be performed:
 
 1.  Hypothesis formation and Data Processing - Importing the relevant libraries and modules,
     Cleaning of Data, Check data types, Encoding Data labels etc.
